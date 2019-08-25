@@ -75,14 +75,18 @@
     </div>
   </div>
 
+  <br/>
   <div class="row">
-    <% @place.photos.each do |photo| %>
-      <div class="clear-both"></div>
-      <div class="col-4 offset-4">
-        <%= image_tag photo.picture.url %><br/>
-        <b class="align-center"><%= photo.caption %> </b>
-      </div>
-    <% end %> 
+    <% if @place.photos.present? %>
+      <ul class="bxslider">
+        <% @place.photos.each do |photo| %>
+          <li class="text-center">
+            <%= image_tag photo.picture.url, class: "image_tag" %><br/>
+            <b><%= photo.caption %> </b>
+          </li>
+        <% end %> 
+      </ul>
+    <% end %>
   </div>
 
   <!-- Modal for comment -->

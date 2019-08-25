@@ -2,8 +2,21 @@
 <div class="col-10 offset-1 pagination_div">
   <%= will_paginate @place, previous_label: h("<"), next_label: h(">") %>
 </div>
+
+
+
 <% @place.each do |place| %>
   <div class="booyah-box col-10 offset-1">
+      
+        <ul class="bxslider text-center">  
+        <% if place.photos.present? %>
+            <% place.photos.each do |photo| %>
+            <li>
+              <%= image_tag photo.picture.url, class: "image_tag" %>
+            </li>
+            <% end %>
+        <% end %>
+      </ul>
     <h1> <%= link_to place.name, place_path(place) %></h1>
     <i> <%= place.address %></i><br /><br />
     <p> <%= place.description %></p><br />
