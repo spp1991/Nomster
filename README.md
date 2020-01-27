@@ -21,7 +21,7 @@ Note : Please execute commands to install all gems ('bundle install') and create
 To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
 
 ## Home Page
-<img src="Screenshot home.png" alt="Screenshot Home">
+<img src="Screenshot home.PNG" alt="Screenshot Home">
 
 ## Restaurant Page 
 <img src="screenshot restaurant page 1.png" alt="Restaurant">
