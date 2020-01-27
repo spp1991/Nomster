@@ -29,4 +29,4 @@ To checkout the application, click [here](https://grammable-sunnypatel.herokuapp
 <img src="screenshot restaurant page 3.png" alt="Restaurant">
 
 ## User Profile 
-<img src="screenshot user profile.png" alt="User Profile">
+<img src="screenshot user profile.PNG" alt="User Profile">
