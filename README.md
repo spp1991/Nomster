@@ -24,9 +24,9 @@ To checkout the application, click [here](https://grammable-sunnypatel.herokuapp
 <img src="Screenshot home.PNG" alt="Screenshot Home">
 
 ## Restaurant Page 
-<img src="screenshot restaurant page 1.png" alt="Restaurant">
+<img src="screenshot restaurant page 1.PNG" alt="Restaurant">
 <img src="screenshot restaurant page 2.png" alt="Restaurant">
 <img src="screenshot restaurant page 3.png" alt="Restaurant">
 
 ## User Profile 
-<img src="Screenshot user profile.png" alt="User Profile">
+<img src="screenshot user profile.png" alt="User Profile">
