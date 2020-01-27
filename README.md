@@ -6,6 +6,7 @@ Functionalities include:
 - Enabling restaurnat owners/users to create/update/delete restaurant pages, uploading photos  for user to visualize the place and geolocation feature of Google Maps to convert address into latitudes and longitudes and locate the restaurant on a Map 
 - Allowing visitors to provide reviews on the restaurant
 - Profile page for users showing restaurant created/comments posted
+- Alerting creator of restaurant profile through email about the comments being posted on the restaurant
 
 
 Technical details of the app is as follows :
@@ -20,16 +21,12 @@ Note : Please execute commands to install all gems ('bundle install') and create
 To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
 
 ## Home Page
-<img src="screenshot-home.png" alt="Screenshot Home">
+<img src="Screenshot home.png" alt="Screenshot Home">
 
-## Course Listing Page (Administrator)
-<img src="Screenshot-course-administrator.png" alt="Course Page Administrator">
+## Restaurant Page 
+<img src="screenshot restaurant page 1.png" alt="Restaurant">
+<img src="screenshot restaurant page 2.png" alt="Restaurant">
+<img src="screenshot restaurant page 3.png" alt="Restaurant">
 
-## Course Page (Student)
-<img src="screenshot-course-student.png" alt="Course Page Student">
-
-## Lesson Page (Student)
-<img src="screenshot-lesson-page.png" alt="Student Lesson Page">
-
-## Payment Page (Student)
-<img src="stripe-payment-page.png" alt="Payment Page">
+## User Profile 
+<img src="Screenshot user profile.png" alt="User Profile">
