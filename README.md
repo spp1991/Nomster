@@ -1,9 +1,9 @@
-# Flixter 
+# Nomstar
 
-The application is a restaurnt database ,featuring individual pages for each restaurant containing restaurant details (address,photos) and place for a user to share their review on the restaurant. To enable user easily locate the restuarnt, application also has integrated Google Maps as location finder.
+The application is a sample app for creating restaurants details in a city ,featuring individual pages for each restaurant containing restaurant details (address,photos) and place for a user to share their review on the restaurant. To enable user easily locate the restaurant, application also has integrated Google Maps as location finder.
 
 Functionalities include:
-- Enabling restaurnat owners/users to create/update/delete restaurant pages, uploading photos  for user to visualize the place and geolocation feature of Google Maps to convert address into latitudes and longitudes and locate the restaurant on a Map 
+- Enabling restaurant owners/users to create/update/delete restaurant pages, uploading photos  for user to visualize the place and geolocation feature of Google Maps to convert address into latitudes and longitudes and locate the restaurant on a Map 
 - Allowing visitors to provide reviews on the restaurant
 - Profile page for users showing restaurant created/comments posted
 - Alerting creator of restaurant profile through email about the comments being posted on the restaurant
