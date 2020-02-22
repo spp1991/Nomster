@@ -8,7 +8,7 @@ Functionalities include:
 - Profile page for users showing restaurant created/comments posted
 - Alerting creator of restaurant profile through email about the comments being posted on the restaurant
 
-[Try it yourself](https://nomster-sunny-patel.herokuapp.com/) 
+## [Try it yourself](https://nomster-sunny-patel.herokuapp.com/) 
 
 
 ## Getting Started
