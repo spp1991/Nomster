@@ -8,17 +8,75 @@ Functionalities include:
 - Profile page for users showing restaurant created/comments posted
 - Alerting creator of restaurant profile through email about the comments being posted on the restaurant
 
+[Try it yourself](https://nomster-sunny-patel.herokuapp.com/) 
 
-Technical details of the app is as follows :
-Programming Language: Ruby, javascript, HTML5
-Web/stylesheet Framwork : ruby on rails, bootstrap  
-Database : postgresql
-Gems : carrierwave, fog-aws, devise, geocoder, simple-form , bx-slider, will-paginate
-Cloud Storage Platform ; Amazon Web Service (AWS)
 
-Note : Please execute commands to install all gems ('bundle install') and create/migrate database/tables('rails db:create , rails db:migrate') before git repository of this application is downloaded and used to run on local server 
+## Getting Started
 
-To checkout the application, click [here](https://nomster-sunny-patel.herokuapp.com/) 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+You will need to setup Vagrant environment to run the application on local machine. To find the installation instructions for your OS, visit :
+
+```
+https://github.com/FirehoseProject/firehose-vagrant-rails5
+```
+### Installing
+
+Initiate the vagrant environment.
+
+Git clone the repository to your local machine in the src folder :
+
+HTTPS:
+```
+$ git clone https://github.com/spp1991/Nomster.git
+```
+
+SSH:
+
+```
+$ git clone git@github.com:spp1991/Nomster.git
+```
+
+Open application folder created by git clone command:
+
+```
+$ cd Nomster
+```
+
+Install all the gems used in application:
+
+```
+$ bundle install
+```
+
+Install the application database and create all the tables:
+
+```
+$ rails db:create
+$ rails db:migrate
+```
+
+You will then be able to start the app locally by runnning:
+
+```
+$ rails server -b 0.0.0.0 -p 3000
+```
+
+## Built With
+
+* [Ruby on Rails](https://rubyonrails.org/) - Web framework
+* [PostgreSQL](https://www.postgresql.org/) - Database
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Web markup language
+* [CSS3](http://www.css3.info/) - Webpage Style Sheet language
+* [Bootstrap](https://getbootstrap.com/) - CSS Framework
+* [Javascript](https://www.javascript.com/) - Web Programming language
+* [jQuery](https://jquery.com/) - Javascript Framework
+* [Amazon Web Service](https://aws.amazon.com/) - Cloud Storage Platform
+* [Carrierwave](https://github.com/carrierwaveuploader/carrierwave), [Fog-aws](https://github.com/fog/fog-aws), [devise](https://github.com/heartcombo/devise), [Geo Coder](https://github.com/alexreisner/geocoder), [Simple Form](https://github.com/heartcombo/simple_form), [bx-Slider](https://github.com/manfe/bxslider-rails), [will paginate](https://github.com/mislav/will_paginate) - Ruby gems
+
+
 
 ## Home Page
 <img src="Screenshot home.PNG" alt="Screenshot Home">
